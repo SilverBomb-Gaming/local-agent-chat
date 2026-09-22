@@ -53,6 +53,14 @@ You need Node.js 20+ and Ollama.
 - **Shell off** means `run_shell` is not offered to the model.
 - A tool card is the transcript: tool name, arguments, ok or denied, and a short result. The model sees the full tool result (still size-capped). The card shows a snippet.
 
+## Live demo proof
+
+A live local run of Ollama `llama3.2` on Windows, with tools limited to a sandboxed workspace and the shell left off.
+
+![list_dir and read_file succeed, then a short summary of the workspace files](docs/screenshots/01-list-and-read.png)
+
+![read_file denied for /etc/passwd outside the workspace](docs/screenshots/02-sandbox-deny.png)
+
 ## Tools and safety
 
 | Tool | What it does | Limit |
