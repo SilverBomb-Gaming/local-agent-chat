@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "local-agent-chat",
+  title: "local-agent-chat by ALFREDO CARDONA (SilverBomb-Gaming)",
   description: "Local-first chat with Ollama and a small set of safe workspace tools.",
 };
 
