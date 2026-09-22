@@ -1,0 +1,28 @@
+{
+  "name": "local-agent-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first chat with Ollama and a small set of safe workspace tools.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "tsx --test src/lib/agent.test.ts src/lib/config.test.ts src/lib/health.test.ts src/lib/messages.test.ts src/lib/ollama.test.ts src/lib/safe-path.test.ts src/lib/sse.test.ts src/lib/tools.test.ts"
+  },
+  "dependencies": {
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

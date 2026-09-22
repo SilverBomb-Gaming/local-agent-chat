@@ -1,0 +1,13 @@
+Project: local-agent-chat
+Owner: Alfredo Cardona (SilverBomb-Gaming)
+Status: recruiter demo
+
+What this is
+- A local chat UI in front of Ollama
+- Read-only tools: list_dir and read_file
+- Optional shell tool, off unless ENABLE_SHELL=true
+
+What this is not
+- Not a hosted agent
+- Not allowed to wander outside the workspace
+- Not a place to put secrets
