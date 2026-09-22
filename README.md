@@ -1,6 +1,6 @@
 # local-agent-chat
 
-A local-first chat app by Alfredo Cardona (SilverBomb-Gaming). It talks to [Ollama](https://ollama.com) on your machine and can call a few safe tools. No cloud API key.
+A local-first chat app by Alfredo Cardona (SilverBomb-Gaming). It talks to [Ollama](https://ollama.com) on your machine and can call a few safe tools. No cloud API key is required to try this out.
 
 The point of the demo: ask the model to list and read a folder, and watch each tool call in the transcript. The tools cannot leave the folder you configure.
 
